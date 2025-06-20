@@ -13,6 +13,9 @@ body {
 .font-gmarket {
   font-family: 'Gmarket Sans', sans-serif;
 }
+.font-pretendard {
+  font-family: 'Pretendard', sans-serif;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -61,9 +64,15 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #f5dfdf;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #8f004f; /* Tailwind의 pink-300 정도 */
+  border-radius: 0.5rem;
 }
