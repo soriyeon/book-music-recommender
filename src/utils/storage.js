@@ -2,7 +2,7 @@ export function saveRecommendation(format, purpose, videoId) {
   try {
     const saved = JSON.parse(localStorage.getItem("savedRecommendations") || "[]");
 
-    const today = getToday(); // ✅ 이거 때문에 오류났던 거야!
+    const today = getToday(); 
 
     const isDuplicate = saved.some(
       (entry) =>

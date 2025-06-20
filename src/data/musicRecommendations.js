@@ -1,5 +1,4 @@
-// ✅ musicRecommendations.js (src/data/musicRecommendations.js)
-// ✅ 이모지 없는 key만 사용하여 안정성 확보
+
 
 const musicRecommendations = {
   "감정 이입, 힐링용": [

@@ -32,14 +32,14 @@
   margin-bottom: 0.2rem;
 }
 
-/* 네비게이션 버튼 (<< < 2025년 6월 > >>) */
+/* 네비게이션 버튼 */
 .react-calendar__navigation button {
   flex: 1;
   background: none;
   border: none;
   font-size: 0.8rem;
   font-weight: bold;
-  color: #4b4a5a !important; /* ✅ 년/월 색상 변경 */
+  color: #4b4a5a !important; 
   text-align: center;
   padding: 0.2rem 0;
   height: 1.5rem;
@@ -57,7 +57,7 @@
   padding-left: 0.5rem;
   text-align: left !important;
   white-space: nowrap;
-  color: #4b4a5a !important; /* ✅ 년/월 색상 변경 */
+  color: #4b4a5a !important; 
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
@@ -66,13 +66,13 @@
   padding: 0;
   margin: 0;
   font-size: 0.7rem;
-  color: #4b4a5a; /* ✅ 월화수목금토 색상 */
+  color: #4b4a5a; 
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
 .react-calendar__month-view__weekdays__weekday {
   padding: 0.2rem 0;
-  color: #4b4a5a !important; /* ✅ 명확하게 덮어쓰기 */
+  color: #4b4a5a !important; 
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
@@ -131,7 +131,7 @@
   text-shadow: none !important;
 }
 
-/* 토요일 - 보라회색 유지 */
+/* 토요일 - 보라회색 */
 .react-calendar__tile.saturday {
   color: #4b4a5a !important;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
@@ -144,7 +144,7 @@
 }
 
 
-/* 예쁜 스크롤바 - 추천 스타일 */
+/* 스크롤바 */
 .scroll-area::-webkit-scrollbar {
   width: 8px;
 }
@@ -157,10 +157,4 @@
   background-color: #f8c9d4;
   border-radius: 9999px;
   border: 2px solid #fef2f5;
-}
-
-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #f9a8d4; /* 예: pink-300 */
-  border-radius: 0.5rem; /* 둥글게 */
 }
